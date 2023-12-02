@@ -1,0 +1,10 @@
+student_email: sumin.ed.vl@yandex.ru
+postgres_cluster:
+  hosts:
+  - address: 10.128.0.20
+    port: 5432
+  user: postgres
+  password: postgres
+  db_name: postgres
+  ssl_mode: disable
+  use_closest_node: false
